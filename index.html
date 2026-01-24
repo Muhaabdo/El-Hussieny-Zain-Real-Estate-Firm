@@ -175,21 +175,33 @@
 </section>
 
 <!-- ================= FORM ================= -->
-<section id="contact">
-  <form action="thank-you.html">
+  <section id="contact">
+  <form action="https://formsubmit.co/muha.abdo@gmail.com" method="POST">
+    
     <input type="text" name="name" placeholder="الاسم" required>
+    
     <input type="tel" name="phone" placeholder="رقم الموبايل" required>
+    
     <input type="email" name="email" placeholder="البريد الإلكتروني (اختياري)">
+    
     <select name="project">
       <option value="">المشروع المهتم به (اختياري)</option>
       <option>Hyde park New Cairo</option>
-      <option>Hyde park new cairo Villas </option>
-      <option> hyde park Central </option>
-      <option> Seashore Hydepark</option>
+      <option>Hyde park New Cairo Villas</option>
+      <option>Hyde Park Central</option>
+      <option>Seashore Hyde Park</option>
     </select>
+
+    <!-- إعدادات FormSubmit -->
+    <input type="hidden" name="_subject" value="New Lead - Real Estate">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://el-hussieny-zain-real-estate-firm.vercel.app/thank-you.html">
+
     <button class="btn btn-call" type="submit">إرسال البيانات</button>
   </form>
 </section>
+
 
 <!-- ================= FOOTER ================= -->
 <footer>
@@ -211,6 +223,7 @@
 
 </body>
 </html>
+
 
 
 
